@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.invert {
+  filter: invert(1);
+}
+
+.invert-white {
+  filter: invert(1) brightness(10); /* This ensures the logo turns white */
+}
+
+.imagegradient {
+  background-image: linear-gradient(
+    to bottom,
+    /* Add a comma after "to bottom" */ rgba(255, 255, 255, 0) 70%,
+    /* First color at 60% */ rgba(0, 0, 0, 1)
+      /* Second color (black) at the end */
+  );
+}
