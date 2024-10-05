@@ -48,7 +48,6 @@ export default Card;
 
 
 
-// const Card = (props) => {
 //     console.log(props); // This will log the props to check if 'slug' exists.
 
 //     return (
