@@ -11,6 +11,35 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+# Swiggy Clone
+
+## Description
+
+The Swiggy Clone is a web application built with React that replicates the core features of the popular food delivery service, Swiggy. Users can browse a variety of restaurants, filter by cuisine, and sort meals to find their favorite dishes easily. This project utilizes the MealDB API for fetching meal data.
+
+## Features
+
+- **Restaurant and Meal Browsing**: Users can explore a range of meals from different restaurants.
+- **Filter by Area**: Users can filter meals based on geographic areas.
+- **Sorting Options**: Meals can be sorted in alphabetical order, either ascending or descending.
+- **Responsive Design**: The app is fully responsive and provides a smooth experience on both desktop and mobile devices.
+- **Loading and Error Handling**: Displays loading indicators and handles errors during data fetching gracefully.
+
+## Technologies Used
+
+- React
+- React Hooks (useState, useEffect)
+- Tailwind CSS (for styling)
+- Fetch API
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Nilesh-geeks/NileshGupta_FrontedDeveloper.git
+   ```
+
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
